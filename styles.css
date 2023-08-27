@@ -1,13 +1,28 @@
+#usuario{
+    text-align: center;
+    display: block;
+    right: 50px;
+    
+}
+
+#contraseña{
+    align-items: center;
+    display: block;
+    margin-top: auto;
+    
+}
+
 button{
-    color: red;
-    background-color: gray;
+    padding: 10px;
+    background-color: purple;
+    color: white;
+    text-align: justify;
+    border-radius: 5px;
+    border: 3px;
+    margin: 10px;
+
 }
 
-label{
-    font-size: 25px;
-    color: red;
-}
 
-body{
-    background-color: darkkhaki;
-}
+
+

@@ -8,10 +8,18 @@
 
 </head>
 <body>
-    <input type="text" placeholder="Di algo" name="" id="mitexto1">
-    <button onclick="mostrarAlerta()"> Enviar </button>
+    <label for="">Usuario</label>
+    <input type="text" name="" id="usuario">
+    <label> Contraseña</label>
+    <input type="text" name="" id="contraseña">
 
-    <button onclick="limpiarTexto()"> Limpiar </button>
+    <button onclick="usuarioLogeado()"> Login </button>
+
+    <button onclick="usuarioRegistrado()"> Registrarme </button>
+
+    <div id="mensaje">
+        
+    </div>    
     
     <script src="script.js"></script>
 
