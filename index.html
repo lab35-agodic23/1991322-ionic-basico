@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Practica 4</title>
+    <title>Practica 5</title>
     <link rel="stylesheet" href="styles.css">
     
 
@@ -13,21 +13,46 @@
     <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css" />
 
-    <ion-header>
-        <ion-toolbar>
-          <ion-title>Presupuestos</ion-title>
-        </ion-toolbar>
-      </ion-header>
-      <ion-content class="ion-padding">
-        <h1><ion-item>
-            <ion-input label="Tipo de gasto" id='tipodegasto' placeholder="Tipo de gasto"></ion-input>
-          </ion-item>
-          <ion-item>
-            <ion-input label="Monto" id='monto' placeholder="$"></ion-input>
-          </ion-item>
-    
-          <ion-button id='guardar'>Guardar</ion-button></h1>
-      </ion-content>
+    <ion-grid [fixed]="true">
+      <ion-row>
+        <ion-col>1</ion-col>
+        <ion-col>2</ion-col>
+        <ion-col>3</ion-col>
+        <ion-col>4</ion-col>
+      </ion-row>
+    </ion-grid>
+
+    <ion-grid [fixed]="true">
+      <ion-row>
+        <ion-col>1</ion-col>
+      </ion-row>
+    </ion-grid>
+
+    <ion-grid [fixed]="true">
+      <ion-row>
+        <ion-col>1</ion-col>
+        <ion-col>2</ion-col>
+        <ion-col>3</ion-col>
+        <ion-col>4</ion-col>
+        <ion-col>5</ion-col>
+        <ion-col>6</ion-col>
+        <ion-col>7</ion-col>
+        <ion-col>8</ion-col>
+        <ion-col>9</ion-col>
+        <ion-col>10</ion-col>
+        <ion-col>11</ion-col>
+        <ion-col>12</ion-col>
+      </ion-row>
+    </ion-grid>
+
+    <ion-grid [fixed]="true">
+      <ion-row>
+        <ion-col size="6">1</ion-col>
+        <ion-col size="2">2</ion-col>
+        <ion-col size="3">3</ion-col>
+        <ion-col size="1">4</ion-col>
+      </ion-row>
+    </ion-grid>
     
       
       <script src="script.js"></script>

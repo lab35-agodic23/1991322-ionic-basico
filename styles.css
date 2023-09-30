@@ -1,27 +1,18 @@
-#usuario{
+ion-col {
+    background-color: #3cbb15;
+    border: solid 1px #000000;
     text-align: center;
-    display: block;
-    right: 50px;
-    
-}
+  }
 
-#contraseña{
-    align-items: center;
-    display: block;
-    margin-top: auto;
-    
-}
+ion-grid {
+    --ion-grid-width: 80%;
 
-button{
-    padding: 10px;
-    background-color: purple;
-    color: white;
-    text-align: justify;
-    border-radius: 5px;
-    border: 3px;
-    margin: 10px;
-
-}
+    --ion-grid-width-xs: 80%;
+    --ion-grid-width-sm: 540px;
+    --ion-grid-width-md: 720px;
+    --ion-grid-width-lg: 960px;
+    --ion-grid-width-xl: 1140px;
+  }
 
 
 
