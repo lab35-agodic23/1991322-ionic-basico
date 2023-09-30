@@ -3,25 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Practica 1</title>
+    <title>Practica 4</title>
     <link rel="stylesheet" href="styles.css">
+    
 
 </head>
 <body>
-    <label for="">Usuario</label>
-    <input type="text" name="" id="usuario">
-    <label> Contraseña</label>
-    <input type="text" name="" id="contraseña">
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css" />
 
-    <button onclick="usuarioLogeado()"> Login </button>
-
-    <button onclick="usuarioRegistrado()"> Registrarme </button>
-
-    <div id="mensaje">
-        
-    </div>    
+    <ion-header>
+        <ion-toolbar>
+          <ion-title>Presupuestos</ion-title>
+        </ion-toolbar>
+      </ion-header>
+      <ion-content class="ion-padding">
+        <h1><ion-item>
+            <ion-input label="Tipo de gasto" id='tipodegasto' placeholder="Tipo de gasto"></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-input label="Monto" id='monto' placeholder="$"></ion-input>
+          </ion-item>
     
-    <script src="script.js"></script>
-
+          <ion-button id='guardar'>Guardar</ion-button></h1>
+      </ion-content>
+    
+      
+      <script src="script.js"></script>
 </body>
 </html>
